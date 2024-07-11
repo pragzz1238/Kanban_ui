@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Kanban_ui.wsgi.application'
+# WSGI_APPLICATION = 'Kanban_ui.wsgi:application'
 
 # settings.py
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
