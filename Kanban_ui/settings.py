@@ -54,7 +54,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Kanban_ui.urls'
 LOGIN_REDIRECT_URL = 'kanban/'
-CSRF_TRUSTED_ORIGINS=['http://127.0.0.1:8000/']
+# CSRF_TRUSTED_ORIGINS=['http://127.0.0.1:8000/']
 
 TEMPLATES = [
     {
